@@ -15,3 +15,5 @@ new Person({ x: 320, y: 180 });
 window.requestAnimationFrame(updateFrame);
 window.requestAnimationFrame(renderFrame);
 window.requestAnimationFrame(debugRender);
+
+console.log(backend);
