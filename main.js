@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcRenderer } = require('electron');
+const { app, BrowserWindow } = require('electron');
 const path = require('node:path');
 
 app.whenReady().then(() => {
@@ -9,7 +9,8 @@ app.whenReady().then(() => {
         title: 'Blueprint City',
         icon: path.join(__dirname, 'frontend/assets/icons/favicon.png'),
         webPreferences: {
-            preload: path.join(__dirname, 'preload.js')
+            preload: path.join(__dirname, 'preload.js'),
+            nodeIntegration: true,
         }
     });
 

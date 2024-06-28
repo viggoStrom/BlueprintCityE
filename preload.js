@@ -1,8 +1,7 @@
 const { contextBridge } = require('electron');
+const { echo } = require("./backend/main.js");
 
 contextBridge.exposeInMainWorld("backend", {
-    cool: coolFunction,
-    value: () => 42
+    test: () => "Hello from the backend!",
+    echo: (arg) => echo(arg)
 })
-
-console.log("preload here");
