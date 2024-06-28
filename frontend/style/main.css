@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+#main-display {
+    height: 80vh;
+    aspect-ratio: 16 / 9;
+
+    background-color: #111111;
+
+    margin-bottom: 5rem;
+
+    image-rendering: pixelated;
+}
+
+#ups-fps-dps {
+    color: gray;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 2rem;
+    font-size: 1.3rem;
+}

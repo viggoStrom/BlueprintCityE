@@ -1,0 +1,16 @@
+{
+    "name": "blueprint_city",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Viggo",
+    "license": "MIT",
+    "description": "A city simulator with a blueprint theme.",
+    "devDependencies": {
+        "electron": "^31.1.0"
+    }
+}
