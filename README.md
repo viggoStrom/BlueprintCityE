@@ -1,1 +1,1 @@
-# BlueprintCityE
+# Blueprint City (Electron Edition)
