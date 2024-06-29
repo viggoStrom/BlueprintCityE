@@ -1,21 +1,21 @@
 
-const updateFrame = () => {
-    // Stat Trackers frame time tracker
-    statTracker.upsFrame();
+// const updateFrame = () => {
+//     // Stat Trackers frame time tracker
+//     statTracker.upsFrame();
 
-    time = (time + 1) % 288;
+//     time = (time + 1) % 288;
 
-    // Gets the layers from the layers object in consts.js and updates each object in each layer
+//     // Gets the layers from the layers object in consts.js and updates each object in each layer
 
-    Object.keys(layers).forEach(layer => {
-        layers[layer].forEach(object => {
-            object.update();
-        });
-    });
+//     Object.keys(layers).forEach(layer => {
+//         layers[layer].forEach(object => {
+//             object.update();
+//         });
+//     });
 
 
-    window.requestAnimationFrame(updateFrame);
-}
+//     window.requestAnimationFrame(updateFrame);
+// }
 
 const renderFrame = () => {
     // Stat Trackers frame time tracker

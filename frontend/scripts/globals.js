@@ -3,6 +3,8 @@
  * @type {HTMLCanvasElement}
  */
 const canvas = document.getElementById("main-display");
+canvas.width = backend.config.canvas.width;
+canvas.height = backend.config.canvas.height;
 /**
  * @type {CanvasRenderingContext2D}
  */

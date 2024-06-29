@@ -9,7 +9,3 @@ const config = {
         speedModifier: 0.9
     }
 }
-
-
-canvas.width = config.canvas.width;
-canvas.height = config.canvas.height;
